@@ -16,6 +16,7 @@ In this project, we'll explore how to build a real-time data pipeline that detec
 
 ## Architecture
 
-![Real-Time Pipeline Architecture]()
+![Real-Time Pipeline Architecture](tram-a-delay-detection/screenshots
+/Architecture.jpeg)
 
 ---
