@@ -12,8 +12,10 @@ In this project, we'll explore how to build a real-time data pipeline that detec
 - **Apache Flink SQL** – for delay detection  
 - **PySpark** – for schedule extraction  
 - **Apache Airflow** – for orchestration  
-- **Open Data from Bordeaux Métropole** – as the data source  
+- **Open Data from Bordeaux Métropole** – as the data source
+
+## Architecture
+
+![Real-Time Pipeline Architecture]()
 
 ---
-
-This README can be expanded with sections like installation, usage, architecture diagram, or links to datasets and dashboards if needed. Let me know if you'd like help adding those!
