@@ -9,7 +9,7 @@ While existing applications like TBM provide tram tracking, this project showcas
 ---
 
 ## ⚙️ Architecture Overview
-
+![Architecture](https://github.com/Vickyapril/tram-a-delay-detection/blob/main/screenshots/Architecture.jpeg)
 
 ## 🔧 Technologies Used
 
@@ -24,20 +24,24 @@ While existing applications like TBM provide tram tracking, this project showcas
 ## 📦 Installation & Setup
 
 ### 1. Clone the Repository
-
-git clone https://github.com/your-username/tram-a-delay-detection.git
-
+```bash
+git clone https://github.com/vickyapril/tram-a-delay-detection.git
+```
 
 
 ### 2. Install Requirements
+```bash
 pip install -r requirements.txt
+```
+
 
 ### 3. Start Kafka & Flink
 Ensure Zookeeper, Kafka, and Flink are running.
 
 ### 4. Run Airflow
+```bash
 airflow standalone
-
+```
 Trigger the DAG real_time_tram_a_delay from the UI.
 
 
@@ -53,7 +57,8 @@ You can simulate delays manually by modifying the transformer output or waiting 
 
 
 ### 📚 Medium Article
-You can read the detailed walk-through here:
-👉 Real-Time Delay Detection for Bordeaux's Tram A using Kafka, Flink & Airflow
+
+You can read the detailed walk-through here:  
+👉 [Real-Time Delay Detection for Bordeaux's Tram A using Kafka, Flink & Airflow](https://medium.com/@vickyapril/real-time-delay-detection-for-bordeauxs-tram-a-using-kafka-flink-airflow-33018d625c08)
 
 
