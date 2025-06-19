@@ -25,6 +25,11 @@ While existing applications like TBM provide tram tracking, this project showcas
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/your-username/tram-a-delay-detection.git
 cd tram-a-delay-detection
+
+
+### 2. Install Requirements
+pip install -r requirements.txt
+
+
