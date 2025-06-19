@@ -1,21 +1,30 @@
-# Real-Time Tram Delay Detection in Bordeaux
+# 🚦 Real-Time Delay Detection for Bordeaux's Tram A using Kafka, Flink & Airflow
 
-Modern cities rely heavily on real-time transit updates. Bordeaux's public transport system (TBM) already offers live information, but this project aims to build a lightweight, open-source version using free data and modern data engineering tools.
+This project is a real-time data pipeline that detects delays on Bordeaux's TRAM A at the Peychotte stop. The system leverages open GTFS-RT data and uses technologies such as Kafka, PySpark, Apache Flink, and Apache Airflow to stream, process, and alert based on tram delays.
 
-## Project Overview
+## 📌 Motivation
 
-In this project, we'll explore how to build a real-time data pipeline that detects tram delays at the **Peychotte** stop on **Tram A**, and sends alert emails when a tram is more than **3 minutes late**.
-
-## Technologies Used
-
-- **Apache Kafka** – for real-time data ingestion  
-- **Apache Flink SQL** – for delay detection  
-- **PySpark** – for schedule extraction  
-- **Apache Airflow** – for orchestration  
-- **Open Data from Bordeaux Métropole** – as the data source
-
-## Architecture
-
-![Real-Time Pipeline Architecture](tram-a-delay-detection/screenshots/Architecture.jpeg)
+While existing applications like TBM provide tram tracking, this project showcases how you can independently build a real-time alerting system using open data and modern streaming tools—ideal for learning or demonstrating data engineering skills.
 
 ---
+
+## ⚙️ Architecture Overview
+
+
+## 🔧 Technologies Used
+
+- 🟧 Apache Kafka — Real-time messaging
+- 💡 Apache Flink SQL — Real-time stream processing
+- 🧠 PySpark — Static GTFS data analysis (for stop ID lookup)
+- 📩 Email Alerts — Send alerts when delays > 3 minutes
+- ⏱ Apache Airflow — Pipeline orchestration
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/tram-a-delay-detection.git
+cd tram-a-delay-detection
