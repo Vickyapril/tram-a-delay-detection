@@ -9,7 +9,7 @@ While existing applications like TBM provide tram tracking, this project showcas
 ---
 
 ## ⚙️ Architecture Overview
-![Architecture](https://github.com/Vickyapril/tram-a-delay-detection/blob/main/screenshots/Architecture.jpeg)
+![Architecture](https://github.com/Vickyapril/tram-a-delay-detection/blob/main/screenshots/Architecture%20(1).png)
 
 ## 🔧 Technologies Used
 
