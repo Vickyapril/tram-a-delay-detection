@@ -46,11 +46,7 @@ Trigger the DAG real_time_tram_a_delay from the UI.
 
 
 ### 📬 Sample Email Alert
-🚨 TRAM A Delay Detected at Peychotte
-Trip ID: 268441330_16
-Arrival Delay: 310 seconds
-Stop ID: 9128
-Please check the live status.
+![Email-Alert](https://github.com/Vickyapril/tram-a-delay-detection/blob/main/screenshots/email-alert.png)
 
 ### 🧪 Testing Locally
 You can simulate delays manually by modifying the transformer output or waiting until the early morning schedules (e.g., 5:30 AM) to test real GTFS-RT delays.
