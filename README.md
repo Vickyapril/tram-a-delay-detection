@@ -26,10 +26,34 @@ While existing applications like TBM provide tram tracking, this project showcas
 ### 1. Clone the Repository
 
 git clone https://github.com/your-username/tram-a-delay-detection.git
-cd tram-a-delay-detection
+
 
 
 ### 2. Install Requirements
 pip install -r requirements.txt
+
+### 3. Start Kafka & Flink
+Ensure Zookeeper, Kafka, and Flink are running.
+
+### 4. Run Airflow
+airflow standalone
+
+Trigger the DAG real_time_tram_a_delay from the UI.
+
+
+### 📬 Sample Email Alert
+🚨 TRAM A Delay Detected at Peychotte
+Trip ID: 268441330_16
+Arrival Delay: 310 seconds
+Stop ID: 9128
+Please check the live status.
+
+### 🧪 Testing Locally
+You can simulate delays manually by modifying the transformer output or waiting until the early morning schedules (e.g., 5:30 AM) to test real GTFS-RT delays.
+
+
+### 📚 Medium Article
+You can read the detailed walk-through here:
+👉 Real-Time Delay Detection for Bordeaux's Tram A using Kafka, Flink & Airflow
 
 
